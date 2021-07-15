@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "374385656773",
+    "project_id": "amsfirebaseproject-cfac8",
+    "storage_bucket": "amsfirebaseproject-cfac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374385656773:android:82831c92bff29ff37e81ac",
+        "android_client_info": {
+          "package_name": "com.example.ams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374385656773-emetuec54nk0p9pp08aiv3q071i8iojk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ams",
+            "certificate_hash": "fad731ea1f7a5a33366d658fff805d94e82ffe08"
+          }
+        },
+        {
+          "client_id": "374385656773-p4q7f9mpakjn7uei0qnvl2sr4431eg4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKwYrrK2RrsWv5e4AgV3U_-eVF6KfZyk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374385656773-p4q7f9mpakjn7uei0qnvl2sr4431eg4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

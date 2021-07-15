@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context=".SignupActivity"
+    android:background="@drawable/infobackground"
+    >
+
+ <Space
+     android:layout_width="match_parent"
+     android:layout_height="60dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@mipmap/weed_logo"
+        android:layout_weight="2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_weight="16"
+
+        >
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="15">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                />
+
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:hint="@string/emailLogin"
+                android:inputType="textEmailAddress"
+
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                />
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="הכנס שם משתמש"
+
+                android:layout_weight="1.5"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <EditText
+                android:id="@+id/userFullName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="הכנס שם מלא"
+                android:layout_weight="1.5"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <EditText
+                android:id="@+id/userID"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="הכנס מס' ת.ז"
+                android:layout_weight="1.5"
+
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"/>
+            <EditText
+                android:id="@+id/userPhone"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="הכנס מס' פלאפון"
+                android:layout_weight="1.5"
+
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <EditText
+                android:id="@+id/userPass"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:inputType="textPassword"
+                android:hint="סיסמה"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                />
+            <EditText
+                android:id="@+id/userconfirmpass"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="textPassword"
+                android:layout_weight="1.5"
+                android:hint="@string/rePass"/>
+
+
+            <Button
+                android:id="@+id/btnSingup"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:backgroundTint="#0a9396"
+                android:layout_weight="1.5"
+                android:text="הצטרפות אלינו"
+                />
+
+        </LinearLayout>
+
+<!--        <Space-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

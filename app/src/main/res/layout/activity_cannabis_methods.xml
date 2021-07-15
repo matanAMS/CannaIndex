@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/infobackground"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <!-- everything you already have -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="שיטות צריכה"
+            android:textSize="20pt"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.2dp"
+            android:background="#000262" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15pt"
+            android:layout_marginRight="20dp"
+            android:text="עישון"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:scrollbars="vertical"
+            android:text="@string/smokeinfo"
+            android:textSize="10pt"
+            android:lineSpacingExtra="10dp"
+            android:layout_marginRight="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:textSize="14pt"
+            android:text="אידוי"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:lineSpacingExtra="10dp"
+            android:layout_marginRight="12dp"
+            android:text="@string/vipeinfo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:textSize="14pt"
+            android:text="שמן"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:lineSpacingExtra="10dp"
+            android:layout_marginRight="12dp"
+            android:text="@string/oilinfo"/>
+
+    </TableLayout>
+</ScrollView>
